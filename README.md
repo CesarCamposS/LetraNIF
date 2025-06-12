@@ -1,2 +1,7 @@
 # LetraNIF
-Script con interfaz gráfica para calcular la letra de un NIF o un NIE (Número de identificación de Extranjero)
+Este programa lo he creado para mi uso personal en el trabajo.
+
+A veces necesito conocer la letra del NIF o NIE, pero en la documentación o no viene, o no se lee bien. 
+Para ahorrarme entrar en alguna página web que me haga el cálculo, he hecho este script en python para hacer el cálculo de forma local en mi equipo. 
+
+El programa detecta si es un NIF o un NIE comprobando el primer caracter. Si es un número, se trata de un NIF, si es X, Y o Z, es un NIE.
