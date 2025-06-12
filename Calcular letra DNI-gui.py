@@ -83,6 +83,7 @@ class Dni():
             return
 
         self.label_resultado.config(text="Formato no válido. NIF: 8 dígitos. \n NIE: X/Y/Z seguido de 7 dígitos.")
+
 # Centrar la ventana principal
         self.master.update_idletasks()
         ancho = self.master.winfo_width()
